@@ -1,0 +1,20 @@
+{
+  "name": "Raven",
+  "version": "4.0.0",
+  "description": "V14 Formlu Ve Menülü Rol Alma Sistemi!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Ly3ssia",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^1.0.0",
+    "discord.js": "^14.0.1",
+    "fs": "^0.0.1-security"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
