@@ -4,7 +4,7 @@ const Discord = require("discord.js")
 exports.run = async (client, message, args) => {
 message.delete()
   const embed = new EmbedBuilder()
-.setTitle("Godzilla - Rol Al Sistemi!")
+.setTitle("Arius - Rol Al Sistemi!")
 .setDescription("Kurulumu yapmak için aşağıdaki butona basabilirsin!")
 .setColor("#ff0000")
 const row = new Discord.ActionRowBuilder()
