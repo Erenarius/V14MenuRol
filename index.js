@@ -38,7 +38,7 @@ require("./events/ready.js")
 
 const modal = new ModalBuilder()
 .setCustomId('form')
-.setTitle('Godzilla - Menülü Rol Alma Sistemi!')
+.setTitle('Arius - Menülü Rol Alma Sistemi!')
   const a1 = new TextInputBuilder()
   .setCustomId('1')
   .setLabel('Başlık')
@@ -107,7 +107,7 @@ value: "s2"
     ])
 );
     const embed = new EmbedBuilder()
-    .setTitle("Godzilla - Rol Alma Sistemi!")
+    .setTitle("Arius - Rol Alma Sistemi!")
     .setDescription("Aşağıdaki menüden istediğin rolleri alabilirsin!")
     .setColor("#ff0000")
     interaction.channel.send({embeds: [embed], components: [row]})
